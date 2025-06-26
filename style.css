@@ -10,7 +10,7 @@ h1 {
 }
 
 img {
-    width: 461px;
+    width: 200px;
     height: auto;
 }
 
@@ -18,3 +18,20 @@ h2{
     color: aquamarine;
     font-family: Times New Roman;
 }
+
+.My-Intrests {
+  color: turquoise;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Button {
+  background-color: darkgoldenrod;
+  font-family: fantasy;
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+}
+
+
