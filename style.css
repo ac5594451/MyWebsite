@@ -1,37 +1,64 @@
 body {
- background-color:gray
+ background: linear-gradient(to right, #ffbf76,#cc76fd);
+ padding: 19px;
+
 }
 
 h1 {
   text-align: center;
   font-family:Georgia, 'Times New Roman', Times, serif;
   text-decoration: underline;  
-  color: aquamarine;
+  color: #985ce7;
 }
 
 img {
-    width: 200px;
+    width: 268px;
     height: auto;
 }
 
 h2{
-    color: aquamarine;
+    color: #985ce7;
     font-family: Times New Roman;
+    font-size: 25px;
 }
 
 .My-Intrests {
-  color: turquoise;
+  color: #6d4d97;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Button {
   background-color: darkgoldenrod;
   font-family: fantasy;
+  margin-top: 20px;
+  
 }
+
 .image-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1px;
+  gap: 5px;
+  display: flex;
+  justify-content: right;
+  align-items: right;
 }
+
+p {
+  font-size: large;
+}
+
+.li {
+font-size: 19px;
+}
+
+.a {
+  font-size: 28px;
+}
+
+.Images-I-Love {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
+}
+
 
 
